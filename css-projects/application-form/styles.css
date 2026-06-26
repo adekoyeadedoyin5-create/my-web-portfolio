@@ -1,0 +1,134 @@
+body {
+  background-color: #f4f7f6;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  max-width: 450px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555555;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.radio-group {
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  padding: 15px 20px 20px 20px;
+  margin-bottom: 25px;
+}
+
+.radio-group legend {
+  font-weight: 600;
+  padding: 0 8px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.radio-group input[type="radio"] {
+  width: auto;
+  margin-bottom: 0;
+  margin-right: 8px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.radio-group label {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 20px;
+  font-weight: normal;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+input:focus, 
+textarea:focus {
+  border-color: lemonchiffon;
+  outline: none;
+  background-color: #ffffff;
+}
+
+input:invalid, 
+select:invalid, 
+textarea:invalid {
+  border-color: red;
+}
+
+input:valid, 
+select:valid, 
+textarea:valid {
+  border-color: green;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+.radio-group input[type="radio"]:checked {
+  border-color: pink;
+  background-color: green;
+  box-shadow: 0 0 5px #007bff;
+}
+
+input[type="radio"]:checked + label {
+  color: #007bff;
+  font-weight: 600;
+}
+
+input:first-of-type {
+  border-color: purple;
+  border-width: 2px;
+}

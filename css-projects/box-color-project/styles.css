@@ -1,0 +1,33 @@
+body {
+  background-color: #f4f4f4;
+}
+.color-box {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+.color1 {
+  background-color: #ef5146;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.color2 {
+  background-color: rgb(0, 255, 25);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.color3 {
+  background-color: yellow;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.color4 {
+  background-color: hsl(210, 100%, 50%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.color5 {
+  background-color: pink;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

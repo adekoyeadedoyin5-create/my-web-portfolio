@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>chicken soup</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1>Chicken Soup</h1>
+<p>How TO Cook Chicken Soup<p>
+<h2>Ingredients</h2>
+<ul>
+<li>chicken (whole, thighs, or leftover roasted)</li>
+<li>celery</li>
+<li>carrots</li>
+<li>chicken broth/stock</li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+<li>Gather all ingredients.</li>
+<li>Place chicken, carrots, celery, and onion in a large soup pot; add enough cold water to cover. Bring to a boil over medium heat; reduce heat to low and simmer, uncovered, until meat falls off of the bone, about 90 minutes. Skim off foam every so often, as needed.
+
+</li>
+<li>Remove chicken from the pot and let sit until cool enough to handle; chop meat into pieces, and discard skin and bones.</li>
+<li>Strain out vegetables, reserving the stock; rinse the soup pot and return the stock to the pot. Chop vegetables into smaller pieces; return chopped chicken and vegetables to the pot.</li>
+<img src="https://www.allrecipes.com/thmb/g_J-AoQtkfaUPl0fQYU7SHxeWmU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8814-homemade-chicken-soup-DDMFS-beauty-4x3-31640-924adc63a78543a7822c5704727f6e4b.jpg" alt="Completed chicken soup">
+</body>
+</html>

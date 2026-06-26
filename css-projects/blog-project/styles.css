@@ -1,0 +1,32 @@
+body {background-color: gold;}
+.blog-post-card {
+  background-color: white;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+}
+.post-img {
+  width: 100%;
+  border-bottom: 4px solid #333;
+  display: block;
+}
+.post-content {
+padding: 20px;
+}
+.post-title, .post-excerpt {
+  color: red;
+  margin: 20px;
+}
+.read-more {
+  display: inline-block;
+  text-decoration: none;
+  color: blue;
+  background-color: green;
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin: 15px;
+}
+.read-more:hover {
+  background-color: #333; /* Use a dark color or any color different from the original */
+  color: #fff;
+}

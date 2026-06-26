@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+<h1 id="title">FREE CODE CAMP SURVEY</h1>
+<p id="description">Take This Survey To Help Us Improve</p>
+<form id="survey-form">
+  <label id="name-label">Name</label>
+  <input id="name" type="text" placeholder="enter your name here" required>
+<label id="email-label">Email</label>
+  <input id="email" type="email" placeholder="enter your email here" required>
+  <label id="number-label">Age</label>
+  <input id="number" type="number" placeholder="age" min="10" max="15">
+  <select id="dropdown">
+    <option value="option1">Good</option>
+    <option value="option2">Better</option>
+    <option value="option1">Best</option>
+    <input type="radio"
+     name="good" value="yes">Yes
+    <input type="radio" name="good" value="no">No
+    <input type="checkbox" value="good">Good
+    <input type="checkbox" value="bad">Bad
+    <textarea></textarea>
+    <button id="submit" type="submit">Submit</button>
+  </select>
+  </form>
+  <body></body>
+</html>

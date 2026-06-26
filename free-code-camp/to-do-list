@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <style>
+        a {text-decoration: none;}
+        a:link {color: red;}
+        a:hover {color: green;}
+        a:active {color: pink;}
+        a:focus {outline: 3px brown;}
+        a:visited {color: maroon}
+
+        </style>
+</head>
+
+<body>
+<ul class="todo-list">
+    <li><input type="checkbox" id="first-task">
+    <label for="first-task">First Task</label>
+<ul class="sub-item">
+  <li>
+    <a class="sub-item-link" href="https://www.facebook.com/" target="_blank">Log In To Facebook</a>
+  </li>
+</ul>
+    </li>
+    <li><input type="checkbox" id="second-task">
+    <label for="second-task">Second Task</label>
+     <ul class="sub-item">
+  <li>
+    <a class="sub-item-link" href="https://github.com/" target="_blank">Log In To GitHub</a>
+  </li>
+</ul>
+    </li>
+    <li><input type="checkbox" id="third-task">
+    <label for="third-task">Third Task</label>
+     <ul class="sub-item">
+  <li>
+    <a class="sub-item-link" href="https://www.linkedin.com/login" target="_blank">Log in To LinkedIn</a>
+  </li>
+</ul>
+    </li>
+    <li><input type="checkbox" id="forth-task">
+    <label for="forth-task">Forth Task</label>
+     <ul class="sub-item">
+  <li>
+    <a class="sub-item-link" href="https://x.com/" target="_blank">Log In To X</a>
+  </li>
+</ul>
+    </li>
+    </ul>
+</body>
+
+</html>

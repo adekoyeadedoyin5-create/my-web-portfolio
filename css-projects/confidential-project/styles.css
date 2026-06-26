@@ -1,0 +1,30 @@
+/* Main container styles */
+#email {
+  box-sizing: border-box; /* Ensures total width stays exactly 500px */
+  width: 500px;
+  padding: 50px;
+  margin-top: 50px;
+  border: 2px solid #000;
+}
+
+/* Shareable base styles for both div elements */
+#confidential, #top-secret {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 15px;
+  border: 2px solid red;
+}
+
+/* Individual rotations */
+#confidential {
+  transform: rotate(-5deg);
+}
+
+#top-secret {
+  transform: rotate(5deg);
+}
+
+/* Text blurring mechanism */
+.blurred {
+  filter: blur(3px);
+}

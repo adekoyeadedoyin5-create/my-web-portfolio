@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+<main>
+    <h1>Cod Gameplay</h1>
+    <p>watch gaming on different platform</p>
+    <section>
+        <h2>Playing COD On Pc</h2>
+        <p>Watch this smooth gameplay on pc</p>
+        <iframe src="https://www.youtube.com/embed/_YSbtvLn98Q?si=WA3UzRJaVUUXWr2q" title="playing-cod-on-pc" height="180" width="350"></iframe>
+        </section>
+    <section>
+        <h2>Comparing GTA 4 to GTA 5</h2>
+        <p>Find out which is better</p>
+        <iframe src="https://youtube.com/embed/7O0tk8-59Ic?si=TuD9imsAkUlOY0Sg" title="is-gta-4-better-then-gta-5" height="180" width="350"></iframe></section>
+    <section>
+        <h2>Why Is Red Dead Redemption Better Than Most Pc Games</h2>
+        <p>Find out right here</p>
+        <iframe src="https://youtube.com/embed/g_5idPpb2t0?si=zMbIdjvo6a6Ny7FH" title="red-dead-redemption" height="180" width="350"></iframe>
+    </section>
+
+    </main>
+</body>
+
+</html>

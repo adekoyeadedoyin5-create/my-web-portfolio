@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">My page</h1>
+    <p id="description">Interact With My Page And Leave A Review</p>
+    <form id="survey-form">
+<label id="name-label">Name: </label>
+<input id="name" type="text" required placeholder="name">
+<label id="email-label">Email: </label>
+<input id="email" type="email" required placeholder="email">
+<label id="number-label">Phone no:</label>
+<input id="number" type="number" min="10" max="30" placeholder="number">
+<select id="dropdown">
+  <option value="good">Good</option>
+  <option value="very-good">Very Good</option>
+  <option value="excellent">Excellent</option>
+  <option value="exceptional" selected>Exceptional</option>
+  <input type="radio" name="interactivity" value="good">Good
+  <input type="radio" name="interactivity" value="bad">Bad
+  <input type="checkbox" value="like">Like
+  <input type="checkbox" value="dislike">Dislike
+  <textarea>Comments</textarea>
+  <input id="submit" type="submit">
+  </select>
+    </form>
+  </body>
+</html>
